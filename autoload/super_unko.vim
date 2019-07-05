@@ -13,7 +13,7 @@ function! super_unko#unko_tower(...)
   endif
 
   let l:unko = s:create_unko_tower(l:n)
-  let l:i = 1
+  let l:i = line(".")
   for l:line in l:unko
     call setline(l:i, l:line)
     let l:i += 1
