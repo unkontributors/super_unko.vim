@@ -1,6 +1,8 @@
 super_unko.vim
 ==============
 
+[![License](https://img.shields.io/badge/license-%F0%9F%92%A9-orange.svg)](./LICENSE)
+
 super_unko.vim project is the one of the awesome, clean and sophisticated OSS vim plugin project in the world.
 Let's create shit plugin!
 
