@@ -17,6 +17,7 @@ if !exists(":UnkoTower")
   command! -nargs=0 BigUnkoShow call super_unko#bigunko_show()
   command! -nargs=0 UnkoTr call super_unko#unko_tr()
   command! -nargs=0 UnkoLs call super_unko#unko_ls()
+  command! -nargs=0 UnkoGrep call super_unko#unko_grep()
 endif
 
 " ----------------------------------------------------------------------------

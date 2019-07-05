@@ -27,5 +27,9 @@ function! super_unko#unko_ls() abort
   call super_unko#unko_ls#unko_ls()
 endfunction
 
+function! super_unko#unko_grep() abort
+  call super_unko#unko_grep#unko_grep()
+endfunction
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
