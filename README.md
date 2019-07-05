@@ -52,6 +52,10 @@ Call below command. Set a 💩 to current line.
 :BigUnkoShow
 ```
 
+BigUnkoShow
+
+![BigUnkoShow](./img/bigunkoshow.png)
+
 Set key-bind to `$HOME/.vimrc` if you want to type easily.
 
 ```vim
