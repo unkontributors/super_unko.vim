@@ -2,8 +2,17 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 " カレントバッファにunko towerを書き込む。
-function! super_unko#unko_tower()
-  let l:unko = s:create_unko_tower(a:n)
+" NOTE: 可変長引数を受け取るときは ... と書く。
+function! super_unko#unko_tower(...)
+  " 引数未指定のときのデフォルト段数は 3
+  let l:n = 3
+  if 1 <= a:0
+    " a:0は引数の数
+    " a:1で第一引数を取得できる
+    let l:n = a:1
+  endif
+
+  let l:unko = s:create_unko_tower(l:n)
   let l:i = 1
   for l:line in l:unko
     call setline(l:i, l:line)
