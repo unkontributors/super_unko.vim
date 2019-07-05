@@ -6,12 +6,27 @@ super_unko.vim
 Installation
 ------------
 
-TODO
+### vim-plug
+
+[vim-plug](https://github.com/junegunn/vim-plug)
+
+```vim
+call plug#begin('~/.vim/plugged')
+
+Plug 'unkontributors/super_unko.vim'
+
+call plug#end()
+```
 
 Usage
 -----
 
-TODO
+Call below command. Set a 💩 to current line.
+
+```vim
+:UnkoTower
+:UnkoTower 5
+```
 
 Contribution
 ------------
