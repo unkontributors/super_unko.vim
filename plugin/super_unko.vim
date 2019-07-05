@@ -15,6 +15,8 @@ if !exists(":UnkoTower")
   " 息数を1つ、あるいは0個指定する場合は　nargs=? を指定する。
   command! -nargs=? UnkoTower call super_unko#unko_tower(<f-args>)
   command! -nargs=0 BigUnkoShow call super_unko#bigunko_show()
+  command! -nargs=0 UnkoTr call super_unko#unko_tr()
+  command! -nargs=0 UnkoLs call super_unko#unko_ls()
 endif
 
 " ----------------------------------------------------------------------------

@@ -19,5 +19,13 @@ function! super_unko#bigunko_show() abort
   call super_unko#bigunko_show#bigunko_show()
 endfunction
 
+function! super_unko#unko_tr() abort
+  " call super_unko#bigunko_show#bigunko_show()
+endfunction
+
+function! super_unko#unko_ls() abort
+  " call super_unko#bigunko_show#bigunko_show()
+endfunction
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
