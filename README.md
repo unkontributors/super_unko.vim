@@ -10,6 +10,8 @@ Installation
 
 [vim-plug](https://github.com/junegunn/vim-plug)
 
+Add below settings.
+
 ```vim
 call plug#begin('~/.vim/plugged')
 
@@ -26,6 +28,13 @@ Call below command. Set a 💩 to current line.
 ```vim
 :UnkoTower
 :UnkoTower 5
+```
+
+Set key-bind to `$HOME/.vimrc` if you want to type easily.
+
+```vim
+nnoremap <Space>u :UnkoTower<CR>
+nnoremap <Space>U :UnkoTower 5<CR>
 ```
 
 Contribution
