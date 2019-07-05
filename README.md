@@ -13,7 +13,7 @@ super_unko.vim プロジェクトは世界で最もクリーンで洗練され�
 | unko.ls       | TBD Shows various shit expression. |
 | unko.yes      | TBD Generate 💩 shit forever. |
 | unko.tower    | Build your shit tower. |
-| bigunko.show  | TBD Big shit. |
+| bigunko.show  | Big shit. |
 | unko.printpnm | TBD Generate 💩 PNM image file. |
 | unko.puzzle   | TBD Sliding block puzzle. |
 | unko.toilet   | TBD Display large 💩 characters. |
@@ -49,6 +49,7 @@ Call below command. Set a 💩 to current line.
 ```vim
 :UnkoTower
 :UnkoTower 5
+:BigUnkoShow
 ```
 
 Set key-bind to `$HOME/.vimrc` if you want to type easily.
