@@ -1,7 +1,11 @@
 super_unko.vim
 ==============
 
-世界一クリーンなプロジェクトのVimPlugin版です。
+super_unko.vim project is the one of the awesome, clean and sophisticated OSS vim plugin project in the world.
+Let's create shit plugin!
+
+super_unko.vim プロジェクトは世界で最もクリーンで洗練されたOSS VimPlugin プロジェクトの一つです。
+うんこなプラグインを作りましょう。
 
 Installation
 ------------
