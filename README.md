@@ -19,7 +19,7 @@ super_unko.vim プロジェクトは世界で最もクリーンで洗練され�
 | unko.printpnm | TBD Generate 💩 PNM image file. |
 | unko.puzzle   | TBD Sliding block puzzle. |
 | unko.toilet   | TBD Display large 💩 characters. |
-| unko.grep     | TBD Print lines matching a 💩 pattern. |
+| unko.grep     | Print lines matching a 💩 pattern. |
 | unko.say      | TBD King 💩 says a message. |
 | unko.shout    | TBD King 💩 shouts a message. |
 | unko.think    | TBD King 💩 thinks something. |
@@ -54,6 +54,7 @@ Call below command. Set a 💩 to current line.
 :UnkoTower
 :UnkoTower 5
 :BigUnkoShow
+:UnkoGrep
 ```
 
 BigUnkoShow
