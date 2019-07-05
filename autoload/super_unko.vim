@@ -20,11 +20,11 @@ function! super_unko#bigunko_show() abort
 endfunction
 
 function! super_unko#unko_tr() abort
-  " call super_unko#bigunko_show#bigunko_show()
+  call super_unko#unko_tr#unko_tr()
 endfunction
 
 function! super_unko#unko_ls() abort
-  " call super_unko#bigunko_show#bigunko_show()
+  call super_unko#unko_ls#unko_ls()
 endfunction
 
 let &cpo = s:save_cpo
