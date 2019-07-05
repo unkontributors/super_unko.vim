@@ -7,6 +7,25 @@ Let's create shit plugin!
 super_unko.vim プロジェクトは世界で最もクリーンで洗練されたOSS VimPlugin プロジェクトの一つです。
 うんこなプラグインを作りましょう。
 
+| Command       | Description |
+|---------------|-------------|
+| unko.tr       | TBD Convert various expressions equals to shit into 💩 (shit). |
+| unko.ls       | TBD Shows various shit expression. |
+| unko.yes      | TBD Generate 💩 shit forever. |
+| unko.tower    | Build your shit tower. |
+| bigunko.show  | TBD Big shit. |
+| unko.printpnm | TBD Generate 💩 PNM image file. |
+| unko.puzzle   | TBD Sliding block puzzle. |
+| unko.toilet   | TBD Display large 💩 characters. |
+| unko.grep     | TBD Print lines matching a 💩 pattern. |
+| unko.say      | TBD King 💩 says a message. |
+| unko.shout    | TBD King 💩 shouts a message. |
+| unko.think    | TBD King 💩 thinks something. |
+| unko.life     | TBD Play 💩's game of life. |
+| unko.date     | TBD |
+| unko.awk      | TBD |
+| unko.xargs    | TBD |
+
 Installation
 ------------
 
