@@ -23,8 +23,6 @@ super_unko.vim プロジェクトは世界で最もクリーンで洗練され�
 | unko.think    | TBD King 💩 thinks something. |
 | unko.life     | TBD Play 💩's game of life. |
 | unko.date     | TBD |
-| unko.awk      | TBD |
-| unko.xargs    | TBD |
 
 Installation
 ------------
