@@ -9,8 +9,8 @@ super_unko.vim プロジェクトは世界で最もクリーンで洗練され�
 
 | Command       | Description |
 |---------------|-------------|
-| unko.tr       | TBD Convert various expressions equals to shit into 💩 (shit). |
-| unko.ls       | TBD Shows various shit expression. |
+| unko.tr       | Convert various expressions equals to shit into 💩 (shit). |
+| unko.ls       | Shows various shit expression. |
 | unko.yes      | TBD Generate 💩 shit forever. |
 | unko.tower    | Build your shit tower. |
 | bigunko.show  | Big shit. |
@@ -47,6 +47,8 @@ Usage
 Call below command. Set a 💩 to current line.
 
 ```vim
+:UnkoTr
+:UnkoLs
 :UnkoTower
 :UnkoTower 5
 :BigUnkoShow
